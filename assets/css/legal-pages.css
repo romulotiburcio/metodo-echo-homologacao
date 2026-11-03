@@ -1,0 +1,41 @@
+/* ECHO DEV 001.D — Estilos EXCLUSIVOS das páginas legais de homologação.
+   Não altera a landing page nem o CSS original dos blocos protegidos. */
+:root{--cream:#faf7f2;--paper:#fffdf9;--ink:#252525;--muted:#68635f;--line:#ded7cf;--coral:#ff5a1f;--coral-soft:#ffede5;--blue:#147ad5;--serif:"Libre Baskerville",Georgia,serif;--sans:Inter,Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:auto}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:var(--sans);line-height:1.77;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--blue);outline-offset:4px;border-radius:3px}
+.legal-header{background:#202124;border-top:4px solid var(--blue);border-bottom:1px solid rgba(255,255,255,.1);color:#fff}
+.header-inner{width:min(1130px,calc(100% - 56px));margin:auto;padding:19px 0;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand-link{display:inline-flex;align-items:center;min-width:0}
+.brand-link img{width:clamp(205px,30vw,337px);max-width:100%;height:auto;display:block;object-fit:contain}
+.header-label{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:#f7c8b6;font-weight:700;text-align:right}
+.legal-shell{width:min(1130px,calc(100% - 56px));margin:0 auto}
+.legal-top{padding:58px 0 0}
+.back-link{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:#5b5754;font-size:.87rem;font-weight:600}
+.back-link:hover{color:var(--coral)}
+.breadcrumb-divider{color:var(--coral);font-size:1.25rem}
+.legal-eyebrow{display:block;margin-top:44px;color:var(--coral);letter-spacing:.18em;text-transform:uppercase;font-weight:750;font-size:.7rem}
+.legal-paper{position:relative;width:min(920px,100%);margin:19px 0 74px;padding:clamp(30px,5.8vw,72px) clamp(25px,6.5vw,78px) clamp(42px,6vw,72px);border-radius:16px;background:var(--paper);border:1px solid #e6ded6;box-shadow:0 18px 58px rgba(37,37,37,.055)}
+.legal-paper:before{content:"";position:absolute;top:0;left:clamp(25px,6.5vw,78px);height:3px;width:76px;background:linear-gradient(90deg,var(--blue),var(--coral));border-radius:0 0 8px 8px}
+.legal-document h1,.legal-document h2{font-family:var(--serif);font-weight:400;letter-spacing:-.038em;color:#252525}
+.legal-document h1{font-size:clamp(2rem,4.3vw,3.45rem);line-height:1.2;overflow-wrap:anywhere;margin:0 0 26px}
+.legal-document h2{font-size:clamp(1.13rem,1.85vw,1.44rem);line-height:1.4;margin:47px 0 14px;scroll-margin-top:25px}
+.legal-document p{margin:0 0 21px;color:#494540;font-size:clamp(.95rem,1.1vw,1rem);line-height:1.85;overflow-wrap:anywhere}
+.legal-document p:first-of-type{color:#6d625d}
+.legal-document strong{font-weight:700;color:#302c29}
+.legal-document em{color:#655d58}
+.legal-document ul,.legal-document ol{color:#494540;padding-left:26px;margin:0 0 21px}
+.legal-document li{margin-bottom:9px}
+.legal-document a{color:var(--blue);text-underline-offset:3px}
+.legal-document h2:not(:first-child){padding-top:3px}
+.legal-document h2:before{content:"";display:block;background:#f0e5de;height:1px;margin-bottom:27px}
+.legal-bottom{border-top:1px solid var(--line);padding:27px 0 60px;display:flex;align-items:flex-start;justify-content:space-between;gap:30px;flex-wrap:wrap}
+.legal-bottom p{color:var(--muted);font-size:.8rem;margin:0;max-width:270px}
+.legal-nav{display:flex;flex-wrap:wrap;gap:10px 20px;align-items:center}
+.legal-nav a{font-size:.82rem;text-decoration:none;font-weight:650;color:#403b38}
+.legal-nav a:hover{color:var(--coral)}
+.legal-nav a[aria-current="page"]{color:var(--blue);text-decoration:underline;text-underline-offset:5px}
+@media(max-width:768px){.legal-top{padding-top:34px}.legal-eyebrow{margin-top:32px}.legal-paper{margin-bottom:45px}.legal-document h2{margin-top:38px}.legal-header .header-inner{width:calc(100% - 40px)}.legal-shell{width:calc(100% - 40px)}}
+@media(max-width:480px){.header-inner{padding:16px 0;flex-direction:column;align-items:flex-start;gap:10px}.header-label{text-align:left}.legal-shell{width:calc(100% - 28px)}.legal-paper{padding:37px 21px 41px;border-radius:12px}.legal-paper:before{left:21px}.legal-document h1{font-size:clamp(1.67rem,7.5vw,2.5rem)}.legal-document h2{font-size:1.13rem}.legal-document p{font-size:.94rem;line-height:1.8}.legal-bottom{padding-bottom:42px}}
