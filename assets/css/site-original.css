@@ -1671,3 +1671,50 @@
         }
       }
     
+
+/* ECHO Black Friday 2026: entregáveis e bônus — revisão isolada */
+.black-inclusions {
+  background: #1f2022;
+  color: #f6f0e8;
+  padding: clamp(78px, 8vw, 118px) 0;
+}
+.black-inclusions .eyebrow, .echo-agent-bonus .eyebrow { color: #ff9373; }
+.black-inclusions-head { max-width: 910px; }
+.black-inclusions-head h2 { margin: 16px 0 22px; color: #fff7f1; font-size: clamp(2.4rem,4.8vw,4.8rem); line-height: 1.06; }
+.black-inclusions-head p { max-width: 780px; color: #cfc7c1; font-size: clamp(1rem,1.45vw,1.18rem); line-height: 1.7; }
+.black-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap: 22px; margin-top: clamp(36px,5vw,64px); }
+.black-item { min-width:0; background:#29292a; border:1px solid rgba(255,255,255,.105); border-radius:20px; overflow:hidden; display:flex; flex-direction:column; }
+.black-art { aspect-ratio:4/3; width:100%; position:relative; overflow:hidden; background:radial-gradient(circle at 26% 22%, rgba(255,112,67,.19),transparent 48%),linear-gradient(140deg,#333538,#191b1e); display:grid; place-items:center; isolation:isolate; }
+.black-art::before { content:""; position:absolute; width:51%; aspect-ratio:1; border:1px solid rgba(255,255,255,.16); border-radius:32%; transform:rotate(23deg); box-shadow:0 0 50px rgba(255,112,67,.11); }
+.black-art::after { content:""; position:absolute; inset:10%; border:1px solid rgba(255,255,255,.035); border-radius:16px; pointer-events:none; }
+.black-art-index { color:rgba(255,255,255,.16); font-family:var(--serif); font-size:clamp(5rem,9vw,9rem); font-weight:400; line-height:1; z-index:1; }
+.black-art-pending { position:absolute; bottom:18px; right:19px; z-index:2; font-size:.67rem; text-transform:uppercase; letter-spacing:.14em; color:#cfbfaf; background:rgba(13,14,17,.75); padding:7px 10px; border-radius:5px; }
+.black-art--copy {background:radial-gradient(circle at 78% 34%,rgba(255,128,85,.23),transparent 45%),linear-gradient(135deg,#232629,#39302c);}
+.black-art--ads {background:radial-gradient(circle at 32% 76%,rgba(85,122,158,.27),transparent 55%),linear-gradient(125deg,#2e2a2b,#1c242a);}
+.black-art--vincora,.black-art--agenda,.black-art--recursos {background:radial-gradient(circle at 72% 22%,rgba(128,177,144,.3),transparent 52%),linear-gradient(138deg,#1a2d29,#1c2223);}
+.black-art--contato,.black-art--mensagens {background:radial-gradient(circle at 70% 22%,rgba(255,183,142,.23),transparent 50%),linear-gradient(145deg,#372b2b,#202229);}
+.black-art--hospedagem,.black-art--resultados {background:radial-gradient(circle at 28% 34%,rgba(109,140,177,.26),transparent 50%),linear-gradient(140deg,#1c2530,#282326);}
+.black-art--criativos,.black-art--presenca {background:radial-gradient(circle at 72% 30%,rgba(218,184,142,.18),transparent 45%),linear-gradient(145deg,#3c3130,#1e2023);}
+.black-art img {width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:2;}
+.black-item-body {padding:28px 27px 32px; display:flex; flex-direction:column; flex:1;}
+.black-item-num {font-size:.68rem;letter-spacing:.16em; font-weight:700;color:#ff9473;}
+.black-item h3 {margin:16px 0 14px;color:#f9f4ee;font-size:clamp(1.25rem,1.7vw,1.65rem); line-height:1.2;}
+.black-item p {color:#cdc6c0;line-height:1.7;font-size:.97rem;}
+.black-disclaimer {color:#a9a19d;margin-top:27px;font-size:.82rem;max-width:800px;}
+.echo-agent-bonus {background:#202124;color:#fff;padding:clamp(78px,8vw,110px) 0;overflow:hidden;}
+.echo-agent-layout {display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(35px,6vw,100px);align-items:center;}
+.echo-agent-copy h2 {margin:14px 0 28px;font-size:clamp(2.1rem,4vw,4.2rem);color:#fff4ec;}
+.echo-agent-copy p {color:#d9d0c9;line-height:1.8;margin:0 0 17px;}
+.echo-agent-copy .echo-agent-emphasis {color:#fff;font-family:var(--serif);font-size:clamp(1.18rem,1.8vw,1.55rem);line-height:1.4;margin-top:26px;}
+.echo-agent-copy .echo-agent-note {color:#c9b7a9;font-size:.8rem;margin-top:23px;border-left:2px solid #ff7043;padding-left:14px;}
+.echo-agent-art {min-height:390px;position:relative;display:grid;place-items:center;background:radial-gradient(circle at 50% 50%,rgba(255,112,67,.13),transparent 60%);}
+.echo-agent-rings,.echo-agent-rings::before,.echo-agent-rings::after {position:absolute;border:1px solid rgba(255,125,80,.23);border-radius:50%;inset:9%;content:"";}
+.echo-agent-rings {transform:rotate(-18deg) scaleX(.83);}
+.echo-agent-rings::before {inset:15%;border-color:rgba(114,151,197,.22);}
+.echo-agent-rings::after {inset:31%;border-color:rgba(255,255,255,.25);}
+.echo-agent-symbol {position:relative;z-index:1;text-align:center;display:flex;flex-direction:column;gap:12px;align-items:center;}
+.echo-agent-symbol span {font:400 clamp(3.6rem,7vw,6.8rem)/1 var(--serif);letter-spacing:-.06em;color:#fff6f0;}
+.echo-agent-symbol small {font-size:.73rem;font-weight:700;letter-spacing:.22em;color:#ff9677;}
+@media(max-width:970px){.black-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.echo-agent-layout{grid-template-columns:1fr;}.echo-agent-art{min-height:290px;}}
+@media(max-width:620px){.black-grid{grid-template-columns:1fr;gap:16px;}.black-item-body{padding:24px;}.black-art-index{font-size:7rem;}.echo-agent-art{min-height:230px;}.black-inclusions-head h2{font-size:clamp(2.25rem,10vw,3.5rem);}}
+@media(prefers-reduced-motion:reduce){.black-item,.black-art,.echo-agent-art{animation:none;transition:none;}}
