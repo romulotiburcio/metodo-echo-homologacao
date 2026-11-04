@@ -1,0 +1,107 @@
+/* MÉTODO ECHO™ — MISSÃO 002 | BLOCO 02 — O DESAFIO
+   Escopo estrito: seletores descendentes de .problem.
+   Não editar HTML, copy ou regras globais dos demais blocos. */
+
+.problem {
+  padding-block: clamp(76px, 6.8vw, 100px);
+}
+
+.problem .problem-grid {
+  grid-template-columns: minmax(0, 1.14fr) minmax(310px, 0.86fr);
+  gap: clamp(38px, 5.2vw, 74px);
+  align-items: stretch;
+}
+
+.problem .section-head {
+  max-width: 690px;
+  min-width: 0;
+}
+
+.problem .eyebrow {
+  letter-spacing: 0.18em;
+}
+
+.problem .section-head h2 {
+  max-width: 660px;
+  margin: 16px 0 26px;
+  font-size: clamp(2.15rem, 3.55vw, 3.75rem);
+  line-height: 1.13;
+  letter-spacing: -0.035em;
+}
+
+.problem .section-head p {
+  max-width: 650px;
+  font-size: clamp(1rem, 1.12vw, 1.065rem);
+  line-height: 1.8;
+}
+
+.problem .quote {
+  align-self: end;
+  min-width: 0;
+  width: 100%;
+  margin-bottom: 7px;
+  padding: clamp(28px, 3.1vw, 40px);
+  border-radius: 22px;
+  font-size: clamp(1.25rem, 1.85vw, 1.72rem);
+  line-height: 1.48;
+  letter-spacing: -0.016em;
+  box-shadow: 0 15px 48px rgba(37, 37, 37, 0.075);
+}
+
+@media (max-width: 900px) {
+  .problem {
+    padding-block: clamp(65px, 8vw, 84px);
+  }
+
+  .problem .problem-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .problem .section-head {
+    max-width: 710px;
+  }
+
+  .problem .section-head h2 {
+    font-size: clamp(2.2rem, 5.2vw, 3.15rem);
+    max-width: 710px;
+  }
+
+  .problem .quote {
+    width: min(100%, 620px);
+    justify-self: end;
+    margin: 0;
+    padding: 34px 38px;
+    font-size: clamp(1.35rem, 2.6vw, 1.6rem);
+  }
+}
+
+@media (max-width: 560px) {
+  .problem {
+    padding-block: 62px 68px;
+  }
+
+  .problem .problem-grid {
+    gap: 26px;
+  }
+
+  .problem .section-head h2 {
+    font-size: clamp(2.05rem, 8.9vw, 2.45rem);
+    line-height: 1.15;
+    margin: 13px 0 20px;
+    letter-spacing: -0.038em;
+  }
+
+  .problem .section-head p {
+    font-size: 1rem;
+    line-height: 1.73;
+  }
+
+  .problem .quote {
+    width: 100%;
+    padding: 28px 26px;
+    border-radius: 18px;
+    font-size: clamp(1.2rem, 5vw, 1.38rem);
+    line-height: 1.51;
+  }
+}
