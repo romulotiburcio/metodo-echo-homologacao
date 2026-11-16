@@ -1,0 +1,23 @@
+/* M028 — ajuste exclusivo da tipografia do título sticky no comparativo.
+   Mantém serif editorial, coral, conteúdo, efeitos e demais correções aprovadas. */
+.echo-value .echo-value-intro h2 {
+  font-size:clamp(2.15rem,3.15vw,3.05rem);
+  line-height:1.16;
+  letter-spacing:-.035em;
+}
+@media (max-width:980px) {
+  .echo-value .echo-value-intro h2 {
+    font-size:clamp(2.05rem,4.6vw,2.65rem);
+    line-height:1.17;
+  }
+}
+@media (max-width:620px) {
+  .echo-value .echo-value-intro h2 {
+    font-size:clamp(1.87rem,7.4vw,2.27rem);
+    line-height:1.18;
+    letter-spacing:-.031em;
+  }
+}
+@media (max-width:350px) {
+  .echo-value .echo-value-intro h2 {font-size:1.85rem;}
+}

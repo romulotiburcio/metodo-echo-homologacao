@@ -1,0 +1,225 @@
+/* Método ECHO™ — Missão 016 | seção pós-oferta.
+   Padrões de entrada inspirados no vídeo fornecido; não copia o tema externo. */
+.echo-objection {
+  background:
+    radial-gradient(ellipse 39% 48% at -6% 4%,rgba(255,112,67,.095),transparent 100%),
+    radial-gradient(ellipse 35% 48% at 108% 93%,rgba(255,112,67,.095),transparent 100%),
+    linear-gradient(180deg,#171719 0%,#1c1a1c 56%,#171719 100%);
+  color:#fff8f2;
+  overflow:clip;
+  padding:clamp(80px,9.1vw,136px) 0 clamp(82px,9.2vw,133px);
+  border-top:1px solid rgba(255,112,67,.14);
+}
+.echo-objection .echo-objection-layout {
+  display:grid;
+  grid-template-columns:minmax(0,.93fr) minmax(0,1.07fr);
+  gap:clamp(36px,5.8vw,86px);
+  align-items:start;
+  max-width:1200px;
+}
+.echo-objection .echo-objection-intro {
+  position:sticky;
+  top:100px;
+  min-width:0;
+  padding-top:clamp(25px,6vw,104px);
+}
+.echo-objection .echo-objection-eyebrow {
+  color:#fa9b79;
+  display:inline-block;
+  margin-bottom:21px;
+  font:700 .74rem/1.4 var(--sans);
+  letter-spacing:.15em;
+}
+.echo-objection .echo-objection-intro h2 {
+  max-width:600px;
+  color:#fff8f1;
+  font:400 clamp(2.8rem,5.1vw,5.15rem)/1.12 var(--serif);
+  letter-spacing:-.048em;
+  margin:0;
+  text-wrap:balance;
+}
+.echo-objection .echo-objection-intro em {
+  font-style:normal;
+  color:#ff8260;
+  white-space:nowrap;
+}
+.echo-objection .echo-objection-intro > p {
+  color:#d8c9c0;
+  font:400 clamp(1rem,1.3vw,1.20rem)/1.68 var(--sans);
+  margin:26px 0 0;
+  max-width:440px;
+}
+.echo-objection .echo-objection-right {min-width:0;}
+.echo-objection .echo-objection-subtitle {
+  color:#fffaf5;
+  font:700 clamp(1.15rem,1.6vw,1.45rem)/1.3 var(--sans);
+  margin:0 0 24px;
+}
+.echo-objection .echo-objection-list {
+  display:flex;
+  flex-direction:column;
+  gap:19px;
+  margin-top:25px;
+}
+.echo-objection .echo-objection-item {
+  display:grid;
+  grid-template-columns:64px minmax(0,1fr);
+  align-items:start;
+  gap:23px;
+  min-width:0;
+  padding:24px 25px;
+  border-radius:19px;
+  border:1px solid rgba(255,112,67,.54);
+  background:linear-gradient(115deg,rgba(255,112,67,.085),rgba(255,112,67,.018) 72%);
+  box-shadow:inset 0 1px 0 rgba(255,204,184,.05),0 13px 36px rgba(0,0,0,.10);
+  transition:border-color 250ms ease,background-color 250ms ease,box-shadow 250ms ease,transform 250ms ease;
+}
+.echo-objection .echo-objection-icon {
+  display:grid;
+  place-items:center;
+  width:61px;height:61px;
+  border-radius:16px;
+  background:linear-gradient(140deg,rgba(255,112,67,.19),rgba(255,112,67,.05));
+  border:1px solid rgba(255,112,67,.32);
+  box-shadow:0 7px 22px rgba(255,112,67,.10);
+  color:#ff825f;
+}
+.echo-objection .echo-objection-icon svg {display:block;width:30px;height:30px;}
+.echo-objection .echo-objection-item-copy {
+  min-width:0;
+  border-left:2px solid rgba(255,112,67,.82);
+  padding-left:21px;
+}
+.echo-objection .echo-objection-item h4 {
+  color:#fffaf6;
+  font:700 clamp(1.07rem,1.43vw,1.27rem)/1.33 var(--sans);
+  margin:0 0 9px;
+  text-wrap:pretty;
+}
+.echo-objection .echo-objection-item p {
+  color:#ddcec7;
+  font:400 clamp(.965rem,1.13vw,1.05rem)/1.62 var(--sans);
+  margin:0;
+}
+.echo-objection .echo-objection-conclusion {
+  padding:29px 4px 0;
+  color:#e8dad1;
+}
+.echo-objection .echo-objection-conclusion > p {
+  font:400 clamp(.97rem,1.16vw,1.08rem)/1.68 var(--sans);
+  margin:0 0 17px;
+  color:#e8dad1;
+}
+.echo-objection .echo-objection-conclusion > .echo-objection-emphasis {
+  font-weight:750;
+  color:#fffaf4;
+  line-height:1.58;
+}
+.echo-objection .echo-objection-conclusion > .echo-objection-disclaimer {
+  font-size:.79rem;
+  line-height:1.55;
+  color:#b9a9a1;
+  margin:13px 0 0;
+}
+@media(hover:hover) and (prefers-reduced-motion:no-preference) {
+  .echo-objection .echo-objection-item:hover {
+    transform:translateY(-3px);
+    border-color:rgba(255,112,67,.85);
+    box-shadow:0 15px 40px rgba(0,0,0,.19),0 0 21px rgba(255,112,67,.085);
+  }
+}
+@media(max-width:920px) {
+  .echo-objection .echo-objection-layout {grid-template-columns:minmax(0,1fr);gap:45px;}
+  .echo-objection .echo-objection-intro {position:static;padding-top:0;}
+  .echo-objection .echo-objection-intro h2 {max-width:780px;font-size:clamp(2.7rem,6vw,4.1rem);}
+  .echo-objection .echo-objection-intro > p {margin-top:17px}
+}
+@media(max-width:620px) {
+  .echo-objection {padding:75px 0 80px;}
+  .echo-objection .echo-objection-layout {gap:37px;}
+  .echo-objection .echo-objection-eyebrow {font-size:.68rem;margin-bottom:18px;}
+  .echo-objection .echo-objection-intro h2 {font-size:clamp(2.40rem,9.1vw,3.38rem);}
+  .echo-objection .echo-objection-subtitle {font-size:1.13rem;margin-bottom:0;}
+  .echo-objection .echo-objection-list {gap:13px;margin-top:18px}
+  .echo-objection .echo-objection-item {
+    grid-template-columns:42px minmax(0,1fr);
+    gap:12px;
+    padding:18px 14px;
+    border-radius:15px;
+  }
+  .echo-objection .echo-objection-icon {width:42px;height:42px;border-radius:12px;}
+  .echo-objection .echo-objection-icon svg {width:22px;height:22px;}
+  .echo-objection .echo-objection-item-copy {padding-left:12px;}
+  .echo-objection .echo-objection-item h4 {font-size:1.02rem;}
+  .echo-objection .echo-objection-item p {font-size:.95rem;line-height:1.59;}
+  .echo-objection .echo-objection-conclusion {padding-top:19px;}
+}
+@media(max-width:375px) {
+  .echo-objection .echo-objection-item {padding:16px 12px;gap:9px;}
+  .echo-objection .echo-objection-item-copy {padding-left:10px;}
+  .echo-objection .echo-objection-intro h2 {font-size:clamp(2.22rem,9.25vw,2.7rem);}
+}
+@media(prefers-reduced-motion:no-preference) {
+  .echo-objection.echo-objection-ready [data-echo-objection-reveal]:not(.echo-objection-visible) {
+    opacity:0;
+    transform:translateY(14px);
+  }
+  .echo-objection.echo-objection-ready [data-echo-objection-reveal] {
+    transition:opacity 540ms ease-out,transform 540ms cubic-bezier(.18,.76,.22,1),
+               border-color 250ms ease,box-shadow 250ms ease;
+  }
+  .echo-objection.echo-objection-ready [data-echo-objection-reveal].echo-objection-visible {
+    transition-delay:var(--echo-objection-delay,0ms);
+  }
+}
+@media(prefers-reduced-motion:reduce) {
+  .echo-objection *, .echo-objection *::before {animation:none!important;transition:none!important;}
+}
+
+@media(max-width:700px) {
+  html.echo-objection-viewing .wa {
+    opacity:0!important;
+    visibility:hidden!important;
+    pointer-events:none!important;
+    animation:none!important;
+  }
+}
+
+
+/* Missão 017: headline mais compacta e comercial; preserva a copy e os demais cards. */
+.echo-objection .echo-objection-intro h2 {
+  max-width:620px;
+  font-family:var(--sans);
+  font-size:clamp(2.05rem,3.25vw,3rem);
+  font-weight:750;
+  line-height:1.09;
+  letter-spacing:-.045em;
+  text-wrap:initial;
+}
+.echo-objection .echo-objection-heading-line {display:block;}
+.echo-objection .echo-objection-intro h2 em {font-style:normal;color:#ff8260;}
+.echo-objection .echo-objection-intro > p {
+  max-width:410px;
+  margin-top:18px;
+  font-size:clamp(.98rem,1.2vw,1.10rem);
+  line-height:1.52;
+}
+.echo-objection .echo-objection-eyebrow {
+  margin-bottom:16px;
+  font-size:.70rem;
+  letter-spacing:.14em;
+}
+@media(max-width:920px) {
+  .echo-objection .echo-objection-intro h2 {font-size:clamp(2.05rem,4.65vw,2.85rem);max-width:720px;}
+}
+@media(max-width:620px) {
+  .echo-objection .echo-objection-intro h2 {
+    font-size:clamp(1.84rem,7.6vw,2.47rem);
+    line-height:1.10;
+    letter-spacing:-.047em;
+  }
+  .echo-objection .echo-objection-intro > p {font-size:.98rem;line-height:1.45;margin-top:15px;}
+}
+@media(max-width:375px) {
+  .echo-objection .echo-objection-intro h2 {font-size:clamp(1.74rem,7.6vw,2.13rem);}
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "echo-m032-value-comparison-conservative-20261115",
+  "source_version": "M031",
+  "source_sha256": "a7b28f5c2e3ac8febf839b71c1462d9c591e02f746c5a6da57caa1db65cc24c0",
+  "source_preserved": true,
+  "new_version": "M032",
+  "modified_files": [
+    "index.html"
+  ],
+  "modified_price_rows": [
+    {
+      "service": "Página profissional premium",
+      "old": "R$ 2.020",
+      "new": "R$ 900"
+    },
+    {
+      "service": "Copywriting estratégico",
+      "old": "R$ 1.200",
+      "new": "R$ 400"
+    },
+    {
+      "service": "Direção visual da página",
+      "old": "R$ 850",
+      "new": "R$ 250"
+    },
+    {
+      "service": "Gestão de anúncios Meta Ads",
+      "old": "R$ 1.800/mês",
+      "new": "R$ 700/mês"
+    },
+    {
+      "service": "Manutenção técnica",
+      "old": "R$ 67,90/mês",
+      "new": "R$ 99,90/mês"
+    },
+    {
+      "service": "Kit de atendimento inicial",
+      "old": "R$ 350",
+      "new": "R$ 150"
+    },
+    {
+      "service": "Kit de presença profissional",
+      "old": "R$ 480",
+      "new": "R$ 150"
+    }
+  ],
+  "unchanged_price_rows": [
+    "Criativos para anúncios",
+    "Vincora com Anna",
+    "Hospedagem profissional"
+  ],
+  "totals": {
+    "setup": "R$ 1.850,00",
+    "first_month_recurring": "R$ 1.127,70",
+    "illustrative_total": "R$ 2.977,70"
+  },
+  "checkout_links_preserved": 4,
+  "offer_price_preserved": true,
+  "hero_and_faq_preserved": true,
+  "disclaimer_updated_to_researched_estimates": true,
+  "no_merge_or_deploy": true,
+  "created_at": "2026-11-15T22:01:58.862747+00:00"
+}

@@ -1,0 +1,152 @@
+/* MÉTODO ECHO™ — M022 / superfícies editoriais (candidata isolada).
+   Apenas demonstração, objeção e FAQ. Copy, mídia e comportamentos preservados.
+   Base de marca: #1F2022 / #FF7043 / creme / off-white. */
+
+/* 07 — demonstração: pausa editorial clara após os 12 entregáveis. */
+.echo-demo {
+  background:
+    radial-gradient(ellipse 45% 65% at 92% 17%,rgba(255,112,67,.065),transparent 100%),
+    linear-gradient(180deg,#f0e8e0 0%,#f5efe8 54%,#f4eee7 100%);
+  color:#292725;
+  padding-top:clamp(42px,4.7vw,70px);
+  padding-bottom:clamp(72px,7vw,108px);
+  border-top:1px solid #eeded2;
+  border-bottom:1px solid #e4d6cd;
+}
+.echo-demo .echo-demo-panel {
+  border:1px solid #e1cfc2;
+  background:linear-gradient(138deg,#fffcf9 0%,#fdf7f1 100%);
+  box-shadow:0 22px 62px rgba(50,36,29,.105),0 1px 0 rgba(255,255,255,.8) inset;
+}
+.echo-demo .echo-demo-video {
+  border:1px solid rgba(255,112,67,.29);
+  background:#131418;
+  box-shadow:0 8px 30px rgba(32,25,22,.09);
+}
+.echo-demo .echo-demo-media figcaption {
+  color:#6b5f58;
+}
+.echo-demo .echo-demo-copy .eyebrow {
+  color:#b74627;
+}
+.echo-demo .echo-demo-copy h2 {
+  color:#292521;
+}
+.echo-demo .echo-demo-copy p {
+  color:#504841;
+}
+
+/* 13 — objeção: creme acolhedor para interromper a sequência escura,
+   mantendo o mesmo layout sticky, textos, ícones e efeito de entrada. */
+.echo-objection {
+  color:#2b2725;
+  background:
+    radial-gradient(ellipse 54% 65% at 8% 6%,rgba(255,112,67,.075),transparent 100%),
+    radial-gradient(ellipse 42% 55% at 101% 89%,rgba(204,132,97,.07),transparent 100%),
+    linear-gradient(165deg,#f5eee7 0%,#f1e9e1 52%,#f6f0e9 100%);
+  border-top:1px solid #e5d5ca;
+  border-bottom:1px solid #e7dad0;
+}
+.echo-objection .echo-objection-eyebrow {
+  color:#b6472b;
+}
+.echo-objection .echo-objection-intro h2 {
+  color:#292521;
+}
+.echo-objection .echo-objection-intro h2 em {
+  color:#a94128;
+}
+.echo-objection .echo-objection-intro > p {
+  color:#62574f;
+}
+.echo-objection .echo-objection-subtitle {
+  color:#292521;
+}
+.echo-objection .echo-objection-item {
+  background:linear-gradient(112deg,#fffdf9,#fff8f2 100%);
+  border:1px solid #e4cabc;
+  box-shadow:0 13px 38px rgba(81,51,40,.065),inset 0 1px 0 #fff;
+}
+.echo-objection .echo-objection-icon {
+  background:linear-gradient(135deg,#fce8dd,#fff7f0);
+  border:1px solid #efcfbe;
+  color:#bc4b2d;
+  box-shadow:0 6px 18px rgba(143,76,52,.08);
+}
+.echo-objection .echo-objection-item-copy {
+  border-left-color:#d76848;
+}
+.echo-objection .echo-objection-item h4 {
+  color:#292521;
+}
+.echo-objection .echo-objection-item p {
+  color:#5b5049;
+}
+.echo-objection .echo-objection-conclusion,
+.echo-objection .echo-objection-conclusion > p {
+  color:#4a423c;
+}
+.echo-objection .echo-objection-conclusion > .echo-objection-emphasis {
+  color:#302924;
+}
+.echo-objection .echo-objection-conclusion > .echo-objection-disclaimer {
+  color:#665b53;
+}
+@media (hover:hover) and (prefers-reduced-motion:no-preference) {
+  .echo-objection .echo-objection-item:hover {
+    border-color:#d77e5e;
+    box-shadow:0 17px 42px rgba(81,51,40,.12),0 0 18px rgba(255,112,67,.06);
+  }
+}
+
+/* 14 — FAQ: off-white com hierarquia de perguntas claramente legível. */
+.faq.echo-faq-premium {
+  color:#2c2926;
+  background:
+    radial-gradient(ellipse 40% 30% at 98% 5%,rgba(255,112,67,.045),transparent 100%),
+    linear-gradient(180deg,#fffdf9 0%,#fdf9f4 58%,#fffdfa 100%);
+  border-top:1px solid #e9dcd3;
+  border-bottom:1px solid #e9d8ce;
+}
+.faq.echo-faq-premium .echo-faq-heading .eyebrow {
+  color:#b5482a;
+}
+.faq.echo-faq-premium .echo-faq-heading h2 {
+  color:#292521;
+}
+.faq.echo-faq-premium .echo-faq-heading p {
+  color:#665950;
+}
+.faq.echo-faq-premium .faq-list {
+  border-top:1px solid #d8c8bd;
+}
+.faq.echo-faq-premium details {
+  border-bottom:1px solid #ded1c7;
+  background:transparent;
+}
+.faq.echo-faq-premium summary {
+  color:#2b2724;
+}
+.faq.echo-faq-premium details[open] > summary,
+.faq.echo-faq-premium summary:hover {
+  color:#9e3a20;
+}
+.faq.echo-faq-premium summary:focus-visible {
+  outline-color:#ad442a;
+  background:#fff2e9;
+}
+.faq.echo-faq-premium .answer {
+  color:#554941;
+}
+.faq.echo-faq-premium summary::after {
+  color:#b7482b;
+  border-color:#c7785d;
+}
+
+/* Transições: a superfície clara é deliberada, não uma faixa publicitária.
+   Texturas e sombras estão contidas dentro de cada seção autorizada. */
+@media (max-width: 700px) {
+  .echo-demo {padding-top:clamp(32px,7vw,50px);padding-bottom:clamp(58px,9vw,74px)}
+  .echo-demo .echo-demo-panel {box-shadow:0 12px 38px rgba(50,36,29,.09)}
+  .echo-objection .echo-objection-item {box-shadow:0 9px 26px rgba(81,51,40,.06)}
+}

@@ -1,0 +1,38 @@
+/* Método ECHO™ — M033. Escopo limitado: transição Jornada, nota do comparativo e respiro mobile. */
+/* A Jornada já tinha padding-top:0. O respiro excessivo vinha do padding-bottom
+   da demonstração imediatamente anterior: reduzir somente esse respiro. */
+.echo-demo { padding-bottom:clamp(40px,4.5vw,66px); }
+
+/* Observação editorial simples abaixo do bloco laranja, sem substituir o
+   esclarecimento original das estimativas de preços. */
+.echo-value .echo-value-assinatura-m033 {
+  display:grid;
+  gap:6px;
+  margin:12px 6px 0;
+  padding:2px 0 2px 13px;
+  border-left:2px solid rgba(255,112,67,.75);
+  color:#e4d5cb;
+  font-family:var(--sans);
+}
+.echo-value .echo-value-assinatura-m033 p {
+  margin:0;
+  color:#e4d5cb;
+  font:400 clamp(.81rem,.93vw,.88rem)/1.55 var(--sans);
+  overflow-wrap:break-word;
+}
+.echo-value .echo-value-assinatura-m033 strong {
+  color:#ffab89;
+  font-weight:700;
+}
+
+/* Mobile: escaneabilidade, alinhamento e margens confortáveis.
+   Usa max-width (sem aumentar qualquer bloco) para preservar o layout. */
+@media(max-width:359px) {
+  main > section .shell { max-width:calc(100% - 32px) !important; }
+}
+@media(min-width:360px) and (max-width:374px) {
+  main > section .shell { max-width:calc(100% - 36px) !important; }
+}
+@media(min-width:375px) and (max-width:600px) {
+  main > section .shell { max-width:calc(100% - 40px) !important; }
+}

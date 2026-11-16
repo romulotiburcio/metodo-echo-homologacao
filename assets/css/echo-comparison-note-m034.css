@@ -1,0 +1,41 @@
+/* M034 — apresentação do aviso de comparação; não altera a tabela ou o bloco coral. */
+.echo-value .echo-value-comparison-notice {
+  margin-top:clamp(18px,2.2vw,26px);
+  padding:clamp(18px,2.1vw,26px);
+  border:1px solid rgba(255,112,67,.38);
+  border-left:3px solid #FF7043;
+  border-radius:14px;
+  background:rgba(255,255,255,.055);
+  color:#f7ede6;
+  box-shadow:0 12px 36px rgba(0,0,0,.09);
+}
+.echo-value .echo-value-comparison-notice p {
+  color:#efe5df;
+  font-size:clamp(.88rem,1.06vw,.98rem);
+  line-height:1.63;
+  margin:0;
+  text-wrap:pretty;
+}
+.echo-value .echo-value-comparison-notice p+p {
+  margin-top:13px;
+}
+.echo-value .echo-value-comparison-notice-title strong {
+  color:#ff9d7e;
+  font-size:clamp(.84rem,.96vw,.94rem);
+  letter-spacing:.07em;
+  font-weight:800;
+}
+.echo-value .echo-value-comparison-notice p:last-child strong {
+  color:#fff;
+  font-weight:750;
+}
+@media(max-width:640px){
+  .echo-value .echo-value-comparison-notice {
+    padding:17px 16px;
+    border-radius:12px;
+  }
+  .echo-value .echo-value-comparison-notice p {
+    font-size:.91rem;
+    line-height:1.57;
+  }
+}

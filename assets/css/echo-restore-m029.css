@@ -1,0 +1,56 @@
+/* M029 — controle de faixa contínua e do fechamento; marcas e mensagens originais preservadas. */
+
+/* Quatro ciclos idênticos: desloca apenas UM ciclo, sem intervalo vazio. */
+.strip-track {
+  animation:echo-strip-continuous-m029 34s linear infinite;
+  will-change:transform;
+}
+.strip-track .echo-ticker-divider {
+  color:#ff9874;
+  padding-right:14px;
+}
+@keyframes echo-strip-continuous-m029 {
+  from {transform:translateX(0);}
+  to {transform:translateX(-25%);}
+}
+/* Dobra o conteúdo anterior da faixa inferior, mantendo -50% = 4 ciclos inteiros. */
+.echo-value .echo-value-bottom-track {
+  animation-duration:32s;
+}
+/* Ajuste solicitado no título do fechamento: mesma fonte editorial e texto,
+   escala proporcional às outras headlines, sem aumentar a seção novamente. */
+.closing.closing-premium-m023 {
+  padding-top:clamp(60px,6.5vw,94px);
+  padding-bottom:clamp(64px,6.8vw,98px);
+}
+.closing.closing-premium-m023 h2 {
+  max-width:1020px;
+  font-size:clamp(2.5rem,3.85vw,3.7rem);
+  line-height:1.145;
+  letter-spacing:-.035em;
+  margin-bottom:clamp(27px,3.2vw,42px);
+}
+@media(max-width:900px) {
+  .closing.closing-premium-m023 h2 {
+    max-width:810px;
+    font-size:clamp(2.25rem,5.4vw,3.1rem);
+    line-height:1.16;
+  }
+}
+@media(max-width:620px) {
+  .closing.closing-premium-m023 {
+    padding-top:61px;
+    padding-bottom:69px;
+  }
+  .closing.closing-premium-m023 h2 {
+    font-size:clamp(1.93rem,7.15vw,2.27rem);
+    line-height:1.17;
+    margin-bottom:24px;
+  }
+}
+@media(max-width:350px){
+  .closing.closing-premium-m023 h2 {font-size:1.9rem;}
+}
+@media(prefers-reduced-motion:reduce){
+  .strip-track,.echo-value .echo-value-bottom-track {animation:none!important;transform:none!important;will-change:auto!important;}
+}
