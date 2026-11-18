@@ -1,0 +1,50 @@
+{
+  "status": "LOCAL_REVIEW_ONLY",
+  "base": "M039",
+  "changes": [
+    {
+      "change": "headline",
+      "occurrences": 1
+    },
+    {
+      "change": "hero_subheadline",
+      "occurrences": 1
+    },
+    {
+      "change": "problem_heading",
+      "occurrences": 1
+    },
+    {
+      "change": "offer_titles",
+      "occurrences": 2
+    },
+    {
+      "change": "offer_subtitles",
+      "occurrences": 2
+    },
+    {
+      "change": "media_spend_transparency",
+      "occurrences": 2
+    },
+    {
+      "change": "objection_real_value",
+      "occurrences": 1
+    },
+    {
+      "change": "objection_investment_clarity",
+      "occurrences": 1
+    },
+    {
+      "change": "two_ethical_faq_objections",
+      "occurrences": 2
+    }
+  ],
+  "headings": [
+    "<h1>\n          Você se preparou para atender. Agora seu trabalho precisa ser\n          <em>encontrado.</em>\n        </h1>"
+  ],
+  "FAQ_old": 13,
+  "FAQ_new": 15,
+  "checkout_links": 4,
+  "source_sha256": "68d43662aa2a3563a93174b0aa72ee182b516fbd741df5fa8d645151e3106786",
+  "target_sha256": "57a4660bbbedc26dea1838ee75141de2acc9c1641f15a0268dbe837e9de35af5"
+}

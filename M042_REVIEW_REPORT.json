@@ -1,0 +1,31 @@
+{
+  "status": "M042_CREATED_LOCAL_PREVIEW_ONLY",
+  "source": "M041",
+  "order": [
+    "hero",
+    "problem",
+    "solution",
+    "benefits",
+    "demo",
+    "pillars",
+    "deliverables",
+    "process",
+    "founder",
+    "value",
+    "offer",
+    "objections",
+    "faq",
+    "closing"
+  ],
+  "removed": "Second full offer repeat (id=oferta-final); primary full offer and closing CTA retained",
+  "added": "Compact early promo summary after 3 service components; hero link to detailed terms",
+  "protected_evidence": {
+    "pillars_unchanged": true,
+    "12_deliverable_section_unchanged": true,
+    "real_demo_unchanged": true,
+    "faq_count": 15,
+    "checkout_links": 3
+  },
+  "sha256_source": "caa92339ebe2d33234d05947f0080d8eb803bec000dd0efe2cc1db9574e29654",
+  "sha256_target": "e1792da61e6ba44ae1ef3de3b666674fcebfe1b0d2ae96141bf14009547508c1"
+}

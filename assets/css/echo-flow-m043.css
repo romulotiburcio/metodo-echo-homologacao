@@ -1,0 +1,16 @@
+/* M043 — espaço editorial antes da oferta principal, exclusivamente tablet e mobile. */
+@media (min-width: 701px) and (max-width: 900px) {
+  #oferta.offer.echo-offer-premium {
+    padding-top: 108px;
+  }
+}
+@media (max-width: 700px) {
+  #oferta.offer.echo-offer-premium {
+    padding-top: 100px;
+  }
+}
+@media (max-width: 375px) {
+  #oferta.offer.echo-offer-premium {
+    padding-top: 92px;
+  }
+}

@@ -1,0 +1,178 @@
+/* Missão 020 — controlled adjustments to comparison + 57% addition to existing top ticker. */
+.top-strip {border-bottom-color:rgba(255,112,67,.86);}
+.strip-track > span {padding-right:17px;}
+.strip-track > span:has(> strong) {padding-right:17px;}
+.strip-track > span:not(:has(> strong)) {padding-right:17px;}
+.strip-track > span:not(:has(> strong)):not(:has(> i)) {padding-right:16px;}
+.strip-track > span:is(:nth-child(2),:nth-child(4),:nth-child(6),:nth-child(8),:nth-child(10),:nth-child(12),:nth-child(14),:nth-child(16),:nth-child(18),:nth-child(20)) {
+  color:#ffa17b;
+  padding-right:14px;
+}
+.echo-value .echo-value-list {
+  display:block;
+  gap:0;
+  overflow:hidden;
+  border:1px solid rgba(255,195,161,.22);
+  border-radius:15px;
+  background:rgba(8,10,16,.28);
+}
+.echo-value .echo-value-row {
+  display:grid;
+  grid-template-columns:29px minmax(0,1fr) auto;
+  align-items:center;
+  gap:14px;
+  margin:0;
+  padding:13px 19px;
+  border:0;
+  border-bottom:1px solid rgba(234,226,218,.12);
+  border-radius:0;
+  box-shadow:none;
+  background:transparent;
+}
+.echo-value .echo-value-row:last-child {border-bottom:0}
+.echo-value .echo-value-row:hover {
+  background:rgba(255,112,67,.045);
+}
+.echo-value .echo-value-check {
+  display:grid;
+  place-items:center;
+  width:24px;height:24px;
+  color:#ffb199;
+  background:rgba(255,112,67,.14);
+  border-radius:50%;
+}
+.echo-value .echo-value-check svg {width:14px;height:14px;display:block}
+.echo-value .echo-value-price {
+  margin-left:8px;
+  padding:0;
+  border:0;
+  color:#ffb18f;
+  font-size:clamp(.95rem,1.10vw,1.09rem);
+}
+.echo-value .echo-value-description strong {font-size:clamp(.93rem,1.1vw,1.03rem)}
+.echo-value .echo-value-description small {font-size:clamp(.73rem,.84vw,.83rem);margin-top:2px;color:#b8aaa3}
+.echo-value .echo-value-subtotals {padding:19px 12px 15px}
+.echo-value .echo-value-total {
+  margin:0;
+  border-radius:0 0 15px 15px;
+  border:1px solid rgba(255,142,99,.85);
+  background:linear-gradient(100deg,#d85531,#ff7043);
+  box-shadow:0 14px 30px rgba(255,112,67,.12);
+}
+.echo-value .echo-value-total span,.echo-value .echo-value-total strong {color:#fff;}
+.echo-value .echo-value-disclaimer {margin:15px 6px 0;font-size:.76rem;}
+.echo-value .echo-value-transition {
+  max-width:750px;
+  margin:clamp(57px,6.9vw,100px) auto 0;
+  padding:0 20px clamp(60px,6vw,92px);
+  text-align:center;
+}
+.echo-value .echo-value-transition p {
+  color:#ddd0ca;
+  font:400 clamp(.97rem,1.22vw,1.09rem)/1.68 var(--sans);
+  max-width:680px;
+  margin:0 auto 15px;
+}
+.echo-value .echo-value-transition h3 {
+  color:#ff9d77;
+  font:750 clamp(1.5rem,2.7vw,2.22rem)/1.3 var(--sans);
+  letter-spacing:-.035em;
+  margin:clamp(23px,3vw,40px) auto clamp(25px,3.2vw,38px);
+  text-decoration:underline;
+  text-decoration-color:rgba(255,112,67,.52);
+  text-underline-offset:6px;
+}
+.echo-value .echo-value-down-link {
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  width:70px;
+  height:106px;
+  margin:0 auto;
+  color:#ffa582;
+  text-decoration:none;
+  outline-offset:5px;
+}
+.echo-value .echo-value-down-stem {
+  width:1px;height:56px;
+  background:linear-gradient(180deg,rgba(255,112,67,.10),rgba(255,112,67,.85));
+}
+.echo-value .echo-value-down-circle {
+  width:45px;height:45px;flex:0 0 45px;
+  display:grid;place-items:center;
+  border-radius:50%;
+  border:1px solid #ff8d66;
+  background:rgba(255,112,67,.1);
+  box-shadow:0 0 23px rgba(255,112,67,.12),inset 0 0 18px rgba(255,112,67,.08);
+  transition:background-color .2s ease,box-shadow .2s ease;
+}
+.echo-value .echo-value-down-circle svg {width:21px;height:21px;display:block}
+.echo-value .echo-value-down-link:hover .echo-value-down-circle {
+  background:rgba(255,112,67,.22);box-shadow:0 0 24px rgba(255,112,67,.28);
+}
+.echo-value .echo-value-down-link:focus-visible {outline:3px solid #ffd4c0;border-radius:20px;}
+.echo-value .echo-value-bottom-band {
+  width:100%;
+  height:46px;
+  position:relative;
+  overflow:hidden;
+  border-top:1px solid #ff8058;
+  border-bottom:1px solid #ff8058;
+  background:repeating-linear-gradient(90deg,transparent 0,transparent 19px,rgba(255,112,67,.032) 20px),
+    linear-gradient(180deg,rgba(255,112,67,.085),rgba(255,112,67,.035));
+  box-shadow:0 0 19px rgba(255,112,67,.13);
+}
+.echo-value .echo-value-bottom-track {
+  display:flex;
+  align-items:center;
+  width:max-content;
+  height:100%;
+  white-space:nowrap;
+  animation:echo-value-band-scroll 25s linear infinite;
+}
+.echo-value .echo-value-bottom-track span {
+  display:inline-flex;align-items:center;flex:0 0 auto;
+  padding:0 18px;
+  color:#f6e1d7;
+  font:700 .72rem/1 var(--sans);
+  letter-spacing:.12em;
+}
+.echo-value .echo-value-bottom-track .echo-value-diamond {
+  color:#ff7043;
+  padding:0 8px;
+  font-size:.66rem;
+}
+@keyframes echo-value-band-scroll {to {transform:translateX(-50%)}}
+@media(prefers-reduced-motion:no-preference) {
+  .echo-value .echo-value-down-circle svg {animation:echo-value-020-down 2.5s ease-in-out infinite;}
+}
+@keyframes echo-value-020-down {
+  0%,100% {transform:translateY(-3px);opacity:.65}
+  46% {transform:translateY(4px);opacity:1}
+}
+@media(max-width:980px) {
+  .echo-value .echo-value-transition {margin-top:60px}
+}
+@media(max-width:620px) {
+  .echo-value .echo-value-row {
+    grid-template-columns:24px minmax(0,1fr);
+    gap:4px 10px;
+    padding:14px 13px;
+  }
+  .echo-value .echo-value-check {width:20px;height:20px;}
+  .echo-value .echo-value-price {
+    grid-column:2;
+    font-size:.93rem;
+    margin:4px 0 0;
+    padding:0;
+  }
+  .echo-value .echo-value-total {flex-wrap:wrap;gap:8px;}
+  .echo-value .echo-value-transition {margin-top:53px;padding-bottom:61px}
+  .echo-value .echo-value-transition h3 {font-size:clamp(1.48rem,6vw,1.85rem)}
+  .echo-value .echo-value-bottom-track span {padding-inline:12px;font-size:.66rem}
+  .echo-value .echo-value-bottom-track .echo-value-diamond {padding-inline:5px}
+}
+@media(prefers-reduced-motion:reduce) {
+  .strip-track,.echo-value .echo-value-bottom-track {animation:none!important;transform:none!important;}
+  .echo-value .echo-value-down-circle svg {animation:none!important;transform:none!important;}
+}

@@ -1,0 +1,75 @@
+/* M024 — apenas comparativo de valores; melhora leitura de fontes e notas.
+   Identidade aprovada (grafite, coral, creme); nenhuma regra global. */
+.echo-value .echo-value-description small {
+  font-size:clamp(.84rem,1.0vw,.94rem);
+  line-height:1.62;
+  color:#d4c5bb;
+}
+.echo-value .echo-market-source,
+.echo-value .echo-market-reference-list a {
+  color:#ffc3a6;
+  text-decoration:underline;
+  text-decoration-color:rgba(255,195,166,.68);
+  text-underline-offset:3px;
+  text-decoration-thickness:1px;
+  border-radius:2px;
+  white-space:normal;
+}
+.echo-value .echo-market-source:hover,
+.echo-value .echo-market-reference-list a:hover {
+  color:#fff1e8;
+  text-decoration-color:currentColor;
+}
+.echo-value .echo-market-source:focus-visible,
+.echo-value .echo-market-reference-list a:focus-visible {
+  outline:2px solid #ffb38c;
+  outline-offset:4px;
+}
+.echo-value .echo-market-notes {
+  margin:clamp(17px,2.3vw,24px) 0 0;
+  padding:clamp(17px,2.2vw,25px);
+  border:1px solid rgba(255,159,122,.30);
+  border-radius:15px;
+  background:linear-gradient(130deg,rgba(255,112,67,.065),rgba(255,112,67,.021));
+}
+.echo-value .echo-market-notes .echo-value-disclaimer {
+  color:#d8c9be;
+  font:400 clamp(.88rem,1.08vw,.96rem)/1.68 var(--sans);
+  margin:0;
+  max-width:none;
+  overflow-wrap:anywhere;
+}
+.echo-value .echo-market-notes .echo-value-disclaimer + .echo-value-disclaimer {
+  margin-top:14px;
+}
+.echo-value .echo-market-notes strong {
+  color:#fff3ea;
+  font-weight:730;
+}
+.echo-value .echo-market-reference-list {
+  border-top:1px solid rgba(255,195,166,.24);
+  padding-top:14px;
+}
+.echo-value .echo-value-left-note {
+  color:#cdbdb4;
+  font-size:clamp(.85rem,.99vw,.94rem);
+  line-height:1.65;
+}
+.echo-value .echo-value-subtotals span,
+.echo-value .echo-value-total span {
+  overflow-wrap:anywhere;
+}
+@media(max-width:650px) {
+  .echo-value .echo-market-notes {padding:15px 14px;}
+  .echo-value .echo-market-notes .echo-value-disclaimer {
+    font-size:.89rem;
+    line-height:1.68;
+  }
+  .echo-value .echo-value-description small {
+    font-size:.84rem;
+    line-height:1.59;
+  }
+  .echo-value .echo-value-subtotals p {
+    gap:11px;
+  }
+}

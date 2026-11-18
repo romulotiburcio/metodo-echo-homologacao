@@ -1,0 +1,42 @@
+--- M038-benefits
++++ M039-benefits
+@@ -13,31 +13,31 @@
+           <span class="echo-hybrid-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><rect x="3.25" y="4.5" width="17.5" height="15" rx="2.3"/><path d="M3.25 9h17.5"/><circle cx="6.5" cy="6.8" r=".65" fill="currentColor" stroke="none"/><circle cx="9" cy="6.8" r=".65" fill="currentColor" stroke="none"/><path d="M7.6 13h7.9M7.6 16h4.6"/></svg></span>
+           <span class="echo-hybrid-label">PRESENÇA PROFISSIONAL</span>
+         </div>
+-        <h3>Estrutura profissional</h3>
+-        <p>Uma <strong>página personalizada</strong>, comunicação estratégica e um caminho claro para facilitar o contato de pessoas interessadas.</p>
++        <h3>Página profissional premium</h3>
++        <p>Uma <strong>página personalizada</strong>, com textos estratégicos e um caminho claro para que pessoas interessadas conheçam seu trabalho e entrem em contato.</p>
+       </article>
+       <article class="echo-hybrid-card echo-hybrid-card--focus" data-echo-reveal>
+         <div class="echo-hybrid-card-top">
+           <span class="echo-hybrid-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10h4l11-5v14L8 14H4a2 2 0 0 1-2-2v0a2 2 0 0 1 2-2Z"/><path d="m8 14 2.2 5h2.5"/><path d="M22 9v6"/></svg></span>
+           <span class="echo-hybrid-label">DIVULGAÇÃO ESTRUTURADA</span>
+         </div>
+-        <h3>Conexão com o público</h3>
+-        <p><strong>Criativos e campanhas</strong> desenvolvidos para apresentar seu trabalho às pessoas que você deseja alcançar.</p>
++        <h3>Gestão de anúncios Meta Ads</h3>
++        <p><strong>Campanhas no Instagram e Facebook</strong>, com planejamento, criativos e acompanhamento para divulgar seus atendimentos. O investimento em anúncios é pago separadamente à Meta.</p>
+       </article>
+       <article class="echo-hybrid-card" data-echo-reveal>
+         <div class="echo-hybrid-card-top">
+           <span class="echo-hybrid-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4" width="17" height="16" rx="2.4"/><path d="M7 15.5 10.5 12l2.6 2.6L17.4 10M14.7 10h2.7v2.7"/></svg></span>
+-          <span class="echo-hybrid-label">ACOMPANHAMENTO</span>
++          <span class="echo-hybrid-label">ORGANIZAÇÃO E ACOMPANHAMENTO</span>
+         </div>
+-        <h3>Organização e otimização</h3>
+-        <p><strong>Acompanhamento dos resultados</strong>, melhorias nas campanhas e acesso ao Vincora para apoiar sua rotina.</p>
++        <h3>Vincora com Anna</h3>
++        <p><strong>Vincora</strong> para organizar clientes, agenda e sessões, com a Anna no treinamento de conversas de pré-atendimento. Inclui acompanhamento dos resultados das campanhas.</p>
+       </article>
+     </div>
+     <div class="echo-hybrid-bridge" data-echo-reveal>
+       <div class="echo-hybrid-bridge-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div>
+       <div>
+         <p class="echo-hybrid-bridge-question">Mas por que reunir essas três frentes?</p>
+-        <p class="echo-hybrid-bridge-answer">Porque não basta estar na internet: é preciso apresentar seu trabalho, divulgá-lo e acompanhar o que acontece.</p>
++        <p class="echo-hybrid-bridge-answer">Porque você reúne uma página para apresentar seu trabalho, campanhas para divulgá-lo e ferramentas para organizar sua rotina, com acompanhamento dos resultados.</p>
+       </div>
+     </div>
+   </div>

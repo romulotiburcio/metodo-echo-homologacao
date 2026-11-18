@@ -1,0 +1,27 @@
+{
+  "version": "M041",
+  "status": "PREVIEW_ONLY_NO_PUBLISH",
+  "base": "M040",
+  "changed_sections": [
+    "ECHO four-pillar text only",
+    "scoped subhead CSS"
+  ],
+  "heading": "Como funciona o Método ECHO™",
+  "four_pillars": [
+    "Estrutura profissional",
+    "Conexão com o público",
+    "Humanização da comunicação",
+    "Organização e otimização"
+  ],
+  "international_advertising_claim": "reach possible, no results guaranteed",
+  "checkout_links": 4,
+  "faq_entries": 15,
+  "price_mentions": {
+    "R$ 297": 15,
+    "R$ 697": 8,
+    "R$ 600": 5,
+    "R$ 897": 2
+  },
+  "original_hash": "57a4660bbbedc26dea1838ee75141de2acc9c1641f15a0268dbe837e9de35af5",
+  "m041_hash": "caa92339ebe2d33234d05947f0080d8eb803bec000dd0efe2cc1db9574e29654"
+}

@@ -1,0 +1,8 @@
+M037 — Linguagem promocional aprovada em 16/11/2026
+Origem preservada: M036 candidate-036-faq-condicoes-black-friday
+Alterados:
+- index.html: duas caixas comerciais e FAQ; retiradas as referências a 13º mês.
+- termos-de-uso/index.html: condição comercial da Black Friday alinhada.
+- consideracoes-importantes/index.html: condição comercial da Black Friday alinhada.
+Fora do escopo: Jornada ECHO, vídeo do topo, problemas mobile, checkout Kiwify, garantia comercial, publicação.
+Pendente: validar checkout e documentos juridicamente e homologar M037 antes de publicar.

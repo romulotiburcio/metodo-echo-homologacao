@@ -1,0 +1,45 @@
+{
+  "original": "C:\\Users\\Romul\\Downloads\\ECHO_M008_Editorial_Demo_20261108\\candidate-024-final-refino-m023",
+  "new_candidate": "C:\\Users\\Romul\\Downloads\\ECHO_M008_Editorial_Demo_20261108\\candidate-025-market-comparison-20261110",
+  "original_sha256": "e79bbc9c703f244e6a927491a9092e1405661ca10099f951376ed3d868b16ef9",
+  "modified_sha256": "339d9fadf46b8c42d6f1026bd5dc9fc1600443a454a06bbdc5016b94152537ba",
+  "totals": {
+    "setup": 1600,
+    "month1": 1327.8,
+    "combined": 2927.8
+  },
+  "rows": [
+    [
+      "Página profissional com design e copy",
+      "Landing page estratégica com redação, design responsivo e recursos básicos de medição; referência de um fornecedor.",
+      "R$ 1.600"
+    ],
+    [
+      "Gestão de anúncios Meta Ads",
+      "Plano Starter com até duas campanhas ativas; referência mensal na modalidade trimestral.",
+      "R$ 825,90/mês"
+    ],
+    [
+      "Dois roteiros para vídeos",
+      "Referência de R$ 160 por roteiro; os vídeos são gravados pela terapeuta.",
+      "R$ 320/mês"
+    ],
+    [
+      "Hospedagem e manutenção",
+      "Referência de plano básico com infraestrutura e cuidados técnicos incluídos.",
+      "R$ 114/mês"
+    ],
+    [
+      "Vincora com Anna",
+      "Preço mensal independente do aplicativo Vincora; referência da própria marca.",
+      "R$ 67,90/mês"
+    ]
+  ],
+  "sources": [
+    "vsexperience.com.br/servicos/landing-page/",
+    "agenciatigris.com.br/lp/gestao-de-trafego-pago/",
+    "fechando.com/copywriter",
+    "sitey.com.br/blog/manutencao-de-sites"
+  ],
+  "status": "LOCAL_PREVIEW_ONLY_NOT_DEPLOYED"
+}

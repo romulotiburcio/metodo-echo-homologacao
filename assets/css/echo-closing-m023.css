@@ -1,0 +1,184 @@
+/* MÉTODO ECHO™ | M023 final de página premium — apenas .closing-premium-m023.
+   Copy, destino comercial e demais componentes preservados.
+   Referência editorial do CEO adaptada à identidade oficial: creme, off-white, coral e grafite. */
+.closing.closing-premium-m023 {
+  position:relative;
+  overflow:clip;
+  text-align:center;
+  background:
+    radial-gradient(ellipse 43% 32% at 7% 14%,rgba(255,112,67,.035),transparent 100%),
+    radial-gradient(ellipse 51% 39% at 97% 96%,rgba(244,209,187,.16),transparent 100%),
+    linear-gradient(180deg,#fffdf9 0%,#fdfaf6 52%,#fffdf9 100%);
+  color:#292521;
+  padding:clamp(80px,8vw,123px) 0 clamp(83px,9vw,132px);
+  border-top:1px solid #e9d9cb;
+}
+.closing-premium-m023 .closing-premium-inner {
+  width:min(100% - 40px,1120px);
+  max-width:1120px;
+  margin-inline:auto;
+}
+.closing-premium-m023 .closing-premium-eyebrow {
+  color:#d74f2f;
+  display:block;
+  font:750 clamp(.83rem,1.15vw,1.08rem)/1.35 var(--sans);
+  letter-spacing:.22em;
+  margin:0 auto clamp(19px,2.2vw,31px);
+}
+.closing.closing-premium-m023 h2 {
+  max-width:1085px;
+  color:#292521;
+  font:400 clamp(2.75rem,5.35vw,5.4rem)/1.06 var(--serif);
+  letter-spacing:-.044em;
+  text-wrap:balance;
+  margin:0 auto clamp(32px,4vw,54px);
+}
+.closing-premium-m023 .closing-premium-text {
+  margin:0 auto;
+  max-width:825px;
+}
+.closing.closing-premium-m023 .closing-premium-text p {
+  color:#47413b;
+  max-width:805px;
+  font:400 clamp(1rem,1.44vw,1.45rem)/1.58 var(--sans);
+  margin:0 auto;
+  text-wrap:pretty;
+}
+.closing.closing-premium-m023 .closing-premium-text p + p {
+  margin-top:clamp(17px,2.5vw,29px);
+}
+.closing.closing-premium-m023 .closing-premium-affirmation {
+  color:#2d2825;
+  max-width:870px;
+  margin:clamp(33px,4.1vw,57px) auto clamp(23px,2.7vw,37px);
+  font:700 clamp(1.31rem,2.1vw,2.18rem)/1.26 var(--serif);
+  letter-spacing:-.016em;
+}
+.closing-premium-m023 a.closing-premium-cta {
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:clamp(9px,2.2vw,26px);
+  width:min(100%,730px);
+  min-height:clamp(64px,6.5vw,83px);
+  border-radius:999px;
+  padding:12px 16px 12px clamp(17px,3.1vw,39px);
+  background:linear-gradient(110deg,#ff7043 0%,#ff6440 56%,#f5512e 100%);
+  border:1px solid rgba(207,77,45,.27);
+  box-shadow:0 13px 30px rgba(255,112,67,.18),inset 0 1px 0 rgba(255,255,255,.27);
+  color:#fff;
+  text-decoration:none;
+  font:750 clamp(.95rem,1.64vw,1.34rem)/1.25 var(--sans);
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing:-.012em;
+  transition:transform 240ms ease,box-shadow 240ms ease,filter 240ms ease;
+}
+.closing-premium-m023 .closing-premium-cta-label {
+  min-width:0;
+  flex:1 1 auto;
+}
+.closing-premium-m023 .closing-premium-cta-arrow {
+  display:grid;
+  place-items:center;
+  flex:0 0 clamp(38px,4vw,51px);
+  width:clamp(38px,4vw,51px);
+  height:clamp(38px,4vw,51px);
+  border-radius:50%;
+  background:rgba(255,234,220,.25);
+  border:1px solid rgba(255,255,255,.20);
+  color:white;
+  transition:transform 240ms ease,background-color 240ms ease;
+}
+.closing-premium-m023 .closing-premium-cta-arrow svg {
+  display:block;
+  width:clamp(19px,2.2vw,24px);
+  height:clamp(19px,2.2vw,24px);
+}
+.closing-premium-m023 a.closing-premium-cta:hover {
+  filter:brightness(1.045);
+  transform:translateY(-3px);
+  box-shadow:0 17px 42px rgba(255,112,67,.25);
+}
+.closing-premium-m023 a.closing-premium-cta:hover .closing-premium-cta-arrow {
+  transform:translateX(4px);
+  background:rgba(255,234,220,.36);
+}
+.closing-premium-m023 a.closing-premium-cta:focus-visible {
+  outline:3px solid #a83e26;
+  outline-offset:5px;
+}
+.closing.closing-premium-m023 .closing-premium-notice {
+  color:#5a4f48;
+  max-width:970px;
+  font:italic 400 clamp(.78rem,.96vw,.93rem)/1.58 var(--sans);
+  margin:clamp(29px,3.6vw,49px) auto 0 !important;
+  text-wrap:pretty;
+}
+@media(max-width:900px){
+  .closing.closing-premium-m023 h2 {
+    max-width:800px;
+    font-size:clamp(2.65rem,6.7vw,4.3rem);
+    line-height:1.09;
+  }
+  .closing-premium-m023 .closing-premium-inner {width:min(100% - 36px,1000px);}
+}
+@media(max-width:620px){
+  .closing.closing-premium-m023 {padding:70px 0 80px;}
+  .closing-premium-m023 .closing-premium-inner {width:min(100% - 34px,1120px);}
+  .closing-premium-m023 .closing-premium-eyebrow {font-size:.75rem;letter-spacing:.18em;margin-bottom:23px;}
+  .closing.closing-premium-m023 h2 {
+    font-size:clamp(2.05rem,9.1vw,3.1rem);
+    line-height:1.10;
+    letter-spacing:-.042em;
+    margin-bottom:27px;
+  }
+  .closing.closing-premium-m023 .closing-premium-text p {
+    font-size:clamp(.99rem,4.15vw,1.1rem);
+    line-height:1.60;
+  }
+  .closing.closing-premium-m023 .closing-premium-text p + p {margin-top:17px;}
+  .closing.closing-premium-m023 .closing-premium-affirmation {
+    font-size:clamp(1.17rem,5.5vw,1.5rem);
+    margin:33px auto 25px;
+  }
+  .closing-premium-m023 a.closing-premium-cta {
+    display:flex;
+    width:100%;
+    font-size:clamp(.85rem,3.5vw,1.04rem);
+    min-height:67px;
+    padding:10px 10px 10px 17px;
+    gap:7px;
+  }
+  .closing-premium-m023 .closing-premium-cta-arrow {
+    width:40px;height:40px;flex:0 0 40px;
+  }
+  .closing.closing-premium-m023 .closing-premium-notice {
+    font-size:.79rem;
+    line-height:1.54;
+    margin-top:31px!important;
+  }
+}
+@media(max-width:350px){
+  .closing.closing-premium-m023 h2 {font-size:2.05rem;}
+  .closing-premium-m023 a.closing-premium-cta {
+    font-size:.82rem;
+    padding-left:13px;
+  }
+}
+@media (prefers-reduced-motion:reduce){
+  .closing-premium-m023 a.closing-premium-cta,
+  .closing-premium-m023 .closing-premium-cta-arrow {transition:none!important;transform:none!important;}
+}
+
+/* No celular, o contato flutuante não cobre a chamada final nem as condições.
+   Ele reaparece automaticamente ao sair do encerramento. */
+@media(max-width:700px){
+  html.echo-closing-viewing .wa{
+    opacity:0!important;
+    visibility:hidden!important;
+    pointer-events:none!important;
+    animation:none!important;
+  }
+}

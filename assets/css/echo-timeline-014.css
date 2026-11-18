@@ -1,0 +1,147 @@
+/* Método ECHO™ · Missão 014.
+   Exclusivo ao bloco Como começar. Cor oficial coral #FF7043; grafite #1F2022.
+   O estado estático conserva todos os quatro números visíveis. */
+.process.echo-process-animated .steps::before { content:none; }
+.process.echo-process-animated .step { isolation:isolate; }
+.process.echo-process-animated .step > b {
+  z-index:3;
+  background:#ff7043;
+  border:1px solid rgba(255,193,166,.45);
+  color:#fff;
+  font-variant-numeric:tabular-nums;
+  transition:background-color 260ms ease, border-color 260ms ease,
+             color 260ms ease, box-shadow 280ms ease, transform 280ms ease;
+}
+.process.echo-process-animated.echo-process-running .step > b {
+  background:#383839;
+  border-color:rgba(255,182,143,.24);
+  color:#e8a88e;
+  box-shadow:none;
+}
+.process.echo-process-animated.echo-process-running .step.is-lit > b {
+  background:#ff7043;
+  border-color:#ffad86;
+  color:#fff;
+  box-shadow:0 0 0 5px rgba(255,112,67,.16),
+             0 0 23px rgba(255,112,67,.48),
+             0 0 43px rgba(255,112,67,.13);
+  transform:scale(1.055);
+}
+.process.echo-process-animated .echo-process-wire {
+  position:absolute;
+  z-index:0;
+  pointer-events:none;
+  display:block;
+  box-sizing:border-box;
+  top:19px;
+  left:42px;
+  width:100%;
+  height:2px;
+  background:linear-gradient(90deg,
+    rgba(248,223,207,.25),
+    rgba(255,230,212,.20));
+}
+.process.echo-process-animated .echo-process-spark {
+  position:absolute;
+  z-index:1;
+  pointer-events:none;
+  display:block;
+  width:11px;
+  height:11px;
+  border-radius:50%;
+  top:50%;
+  left:0;
+  opacity:0;
+  background:#ffe4d4;
+  border:1px solid rgba(255,255,255,.68);
+  box-shadow:0 0 0 3px rgba(255,112,67,.17),
+             0 0 13px 4px rgba(255,112,67,.80),
+             0 0 23px 8px rgba(255,112,67,.23);
+  transform:translate(-50%,-50%);
+}
+.process.echo-process-animated .step.is-traveling .echo-process-spark {
+  animation:echo-timeline-travel-x 1540ms linear both;
+}
+.process.echo-process-animated .echo-process-wire::before {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg,transparent 0%,
+    rgba(255,112,67,.33) 35%,rgba(255,191,157,.88) 50%,
+    rgba(255,112,67,.33) 65%,transparent 100%);
+  opacity:0;
+  transform:scaleX(0);
+  transform-origin:left center;
+  pointer-events:none;
+}
+.process.echo-process-animated .step.is-traveling .echo-process-wire::before {
+  animation:echo-timeline-trace 1540ms ease-out both;
+}
+@keyframes echo-timeline-travel-x {
+  0% {left:0%;opacity:0}
+  9% {opacity:1}
+  88% {opacity:1}
+  100% {left:100%;opacity:0}
+}
+@keyframes echo-timeline-trace {
+  0% {transform:scaleX(0);opacity:0}
+  18% {opacity:1}
+  100% {transform:scaleX(1);opacity:.35}
+}
+@media(max-width:820px) {
+  .process.echo-process-animated .steps {
+    grid-template-columns:minmax(0,1fr);
+    gap:0;
+  }
+  .process.echo-process-animated .step {
+    padding:0 0 39px 70px;
+    min-height:115px;
+  }
+  .process.echo-process-animated .step:last-child {padding-bottom:0;}
+  .process.echo-process-animated .step > b {
+    left:0;
+    top:0;
+  }
+  .process.echo-process-animated .echo-process-wire {
+    left:19px;
+    top:20px;
+    width:2px;
+    height:100%;
+    background:linear-gradient(180deg,
+      rgba(248,223,207,.25),
+      rgba(255,230,212,.20));
+  }
+  .process.echo-process-animated .echo-process-spark {
+    left:50%;
+    top:0;
+  }
+  .process.echo-process-animated .step.is-traveling .echo-process-spark {
+    animation:echo-timeline-travel-y 1540ms linear both;
+  }
+  .process.echo-process-animated .echo-process-wire::before {
+    background:linear-gradient(180deg,transparent,
+      rgba(255,112,67,.38) 36%,rgba(255,191,157,.86) 56%,
+      rgba(255,112,67,.32) 77%,transparent);
+    transform:scaleY(0);
+    transform-origin:center top;
+  }
+  .process.echo-process-animated .step.is-traveling .echo-process-wire::before {
+    animation:echo-timeline-trace-y 1540ms ease-out both;
+  }
+}
+@keyframes echo-timeline-travel-y {
+  0% {top:0%;opacity:0}
+  9% {opacity:1}
+  88% {opacity:1}
+  100% {top:100%;opacity:0}
+}
+@keyframes echo-timeline-trace-y {
+  0% {transform:scaleY(0);opacity:0}
+  18% {opacity:1}
+  100% {transform:scaleY(1);opacity:.35}
+}
+@media(prefers-reduced-motion:reduce) {
+  .process.echo-process-animated .step > b {transition:none!important;transform:none!important;}
+  .process.echo-process-animated .echo-process-spark,
+  .process.echo-process-animated .echo-process-wire::before {animation:none!important;}
+}

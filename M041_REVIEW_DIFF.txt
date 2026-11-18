@@ -1,0 +1,71 @@
+--- M040/index.html
++++ M041/index.html
+@@ -1685,6 +1685,13 @@
+           background-clip: text;
+           -webkit-text-fill-color: transparent;
+         }
++      }
++    
++      /* M041: approved ECHO pillar introduction. Preserve existing art direction. */
++      .echo.final .echo-method-intro {
++        max-width: 780px;
++        color: var(--muted);
++        line-height: 1.6;
+       }
+     </style>
+     <link rel="stylesheet" href="assets/css/black-inclusions-premium.css" />
+@@ -1965,47 +1972,32 @@
+         <div class="shell">
+           <div class="section-head">
+             <div class="eyebrow">O método</div>
+-            <h2>Quatro pilares. Uma estrutura conectada.</h2>
++            <h2>Como funciona o Método ECHO™</h2>
++            <p class="echo-method-intro">Não é sobre ficar famosa. É sobre fazer seu trabalho chegar a quem precisa dele, sem ter que fazer tudo sozinha.</p>
+           </div>
+           <div class="echo-list">
+             <div class="echo-row">
+               <div class="echo-letter">E</div>
+               <h3>Estrutura profissional</h3>
+-              <p>
+-                Uma página personalizada, comunicação estratégica e um caminho
+-                claro para facilitar o contato de pessoas interessadas.
+-              </p>
++              <p>Sua página profissional premium, feita para mostrar quem você é, como atende e transmitir confiança a quem procura terapia. Tudo claro, bonito e fácil de acessar.</p>
+             </div>
+             <div class="echo-row">
+               <div class="echo-letter">C</div>
+               <h3>Conexão com o público</h3>
+-              <p>
+-                Criativos e campanhas desenvolvidos para apresentar seu trabalho
+-                às pessoas que você deseja alcançar.
+-              </p>
++              <p>Seu trabalho merece ser conhecido. Criamos anúncios no Instagram e Facebook para que mais pessoas descubram o que você faz, seja na sua região, em todo o Brasil ou até em outros países. Sem precisar correr atrás de seguidores.</p>
+             </div>
+             <div class="echo-row">
+               <div class="echo-letter">H</div>
+               <h3>Humanização da comunicação</h3>
+-              <p>
+-                Uma divulgação que valoriza sua identidade profissional, com
+-                linguagem acolhedora, clara e respeitosa.
+-              </p>
++              <p>Mostramos o valor do seu trabalho com palavras simples e acolhedoras. Do seu jeito, com a sua linguagem. Sem parecer venda forçada ou precisar virar blogueira.</p>
+             </div>
+             <div class="echo-row">
+               <div class="echo-letter">O</div>
+               <h3>Organização e otimização</h3>
+-              <p>
+-                Acompanhamento dos resultados, melhorias nas campanhas e acesso
+-                ao Vincora para apoiar sua rotina.
+-              </p>
++              <p>Cuidamos dos seus anúncios e acompanhamos o que está funcionando. Com o Vincora e a Anna, você também tem apoio para organizar sua rotina e se preparar para as conversas com novos interessados.</p>
+             </div>
+           </div>
+-          <p class="echo-close">
+-            Quando esses quatro pilares trabalham juntos, sua presença digital
+-            deixa de depender apenas de indicações e tentativas isoladas. Ela
+-            passa a contar com uma estrutura planejada e acompanhada.
+-          </p>
++          <p class="echo-close">Quatro pilares conectados para tornar seu trabalho mais conhecido e criar novas oportunidades de atendimento.</p>
+         </div>
+       </section>
+       <section class="black-inclusions" id="o-que-entra-na-black" aria-labelledby="black-inclusions-title">

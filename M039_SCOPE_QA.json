@@ -1,0 +1,9 @@
+{
+  "status": "LOCAL_DRAFT_ONLY",
+  "changed_replacements": 8,
+  "source_sha256": "4ba0bf63638b78204c62b214aecfad2c3b8c5921e2dedcc0892bc3a87c9a6f89",
+  "target_sha256": "68d43662aa2a3563a93174b0aa72ee182b516fbd741df5fa8d645151e3106786",
+  "jornada_mentions": 0,
+  "protected_terms_preserved": true,
+  "edited_section": "echo-hybrid-benefits"
+}
